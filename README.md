@@ -20,4 +20,4 @@ In inventory section we added our items. And our items are effective and in reas
 
 ### Blogs Section
 
-In blogs section we describe DIFFERENCE BETWEEN JAVASCRIPT and NODEJS, ADIFFERENCE BETWEEN SQL and NOSQL DATABASES AND tWHEN SHOULD YOU USE NODEJS AND  WHEN SHOULD YOU USE MONGODB.
+In blogs section we describe difference between javascript and nodejs, difference between sql and nosql databaseand when should you use nodejs and when should you use mongodb.
