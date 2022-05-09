@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 import Qstn from '../Qstn/Qstn';
 
 const Home = () => {
-    const [inventories, setInventories] = useInventory();
+    const [inventories] = useInventory();
     return (
         <div className=''>
             <Banner></Banner>
