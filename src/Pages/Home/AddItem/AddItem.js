@@ -8,7 +8,7 @@ const Additem = () => {
 
     const onSubmit = product => {
         console.log(product);
-        const url = `http://192.168.0.106:5000/products`;
+        const url = `${process.env.REACT_APP_API_URL}products`;
         axios.post(url, product)
             .then(res => {
                 const { data } = res;

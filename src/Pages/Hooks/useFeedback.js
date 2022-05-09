@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 const useFeedback = () => {
     const [feedbacks, setFeedbacks] = useState([])
     useEffect(() => {
-        const url = "http://192.168.0.106:5000"
+        const url = process.env.REACT_APP_API_URL;
         fetch(`${url}/feedback`)
             .then(res => res.json())
             .then(data => setFeedbacks(data))

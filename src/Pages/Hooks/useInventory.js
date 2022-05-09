@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 const useInventory = () => {
     const [inventories, setInventories] = useState([])
-    let url = "http://192.168.0.106:5000";
+    let url = process.env.REACT_APP_API_URL;
     useEffect(() => {
         fetch(url+"/products")
             .then(res => res.json())

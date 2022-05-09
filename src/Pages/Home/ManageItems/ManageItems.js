@@ -21,7 +21,7 @@ const Manageitems = () => {
             <CardGroup>
                 {
                     inventories.map(inventory => <Inventory
-                        key={inventory.id}
+                        key={inventory._id}
                         inventory={inventory} setInventories={setInventories}
                     ></Inventory>)
                 }

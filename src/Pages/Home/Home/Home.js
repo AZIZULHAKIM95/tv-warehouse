@@ -7,6 +7,7 @@ import Inventory from '../Inventory/Inventory';
 import { Button, CardGroup } from 'react-bootstrap';
 import useInventory from '../../Hooks/useInventory';
 import { Link } from 'react-router-dom';
+import Qstn from '../Qstn/Qstn';
 
 const Home = () => {
     const [inventories, setInventories] = useInventory();
@@ -21,7 +22,7 @@ const Home = () => {
                 <CardGroup>
                     {
                         inventories.slice(0, 6).map(inventory => <Inventory
-                            key={inventory.id}
+                            key={inventory._id}
                             inventory={inventory}
                         ></Inventory>)
                     }
@@ -39,6 +40,11 @@ const Home = () => {
             <ClientFeedback></ClientFeedback>
             <br />
             <br />
+
+           <Qstn></Qstn>
+           <br />
+           <br />
+           <br />
             <Footer></Footer>
         </div>
     );

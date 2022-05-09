@@ -7,7 +7,7 @@ const Myitem = ({item,user,toggledeleted, settoggledeleted}) => {
     const {_id,name,img,price,seller} = item;
 
     const deleteItem = (id,user)=>{
-        const url = `http://192.168.0.106:5000/myitems/${user}/${id}`;
+        const url = `${process.env.REACT_APP_API_URL}myitems/${user}/${id}`;
         axios.delete(url)
         .then(res=>{
             if(res.data.deletedCount>0){
