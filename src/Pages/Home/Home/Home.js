@@ -8,7 +8,6 @@ import { Button, CardGroup } from 'react-bootstrap';
 import useInventory from '../../Hooks/useInventory';
 import { Link } from 'react-router-dom';
 import Qstn from '../Qstn/Qstn';
-import Foot from '../../Shared/Foo/Foot';
 
 const Home = () => {
     const [inventories, setInventories] = useInventory();
@@ -45,8 +44,6 @@ const Home = () => {
            <Qstn></Qstn>
            <br />
            <br />
-
-           <Foot></Foot>
            <br />
             <Footer></Footer>
         </div>
