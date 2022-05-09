@@ -12,7 +12,7 @@ const Additem = () => {
         axios.post(url, product)
             .then(res => {
                 const { data } = res;
-                console.log(data);
+                // console.log(data);
                 reset();
             })
     };

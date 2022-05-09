@@ -39,7 +39,7 @@ const Inventory = (props) => {
     }
     const deleteproductbyone = (id) => {
         const deleteurl = `${process.env.REACT_APP_API_URL}products/` + id;
-        console.log(deleteurl);
+        // console.log(deleteurl);
         axios.delete(deleteurl)
             .then((res => {
                 if (res.data.deletedCount > 0) {

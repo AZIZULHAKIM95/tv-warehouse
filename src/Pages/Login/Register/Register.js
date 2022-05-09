@@ -24,7 +24,6 @@ const Register = () => {
         const password = event.target.password.value;
         await createUserWithEmailAndPassword(email, password);
         await updateProfile({ displayName: name });
-        console.log('Updated profile');
         navigate('/home');
     }
 
@@ -45,7 +44,7 @@ const Register = () => {
     }
 
     if (user) {
-        console.log('user', user);
+        // console.log('user', user);
     }
 
 
