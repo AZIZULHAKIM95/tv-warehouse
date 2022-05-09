@@ -13,7 +13,7 @@ import Inventories from './Pages/Home/Inventories/Inventories';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 
 function App() {
-  console.log(process.env.REACT_APP_API_URL);
+
   return (
     <div>
       <Header></Header>

@@ -10,7 +10,7 @@ const Blogs = () => {
                 <br />
 
                 <p>
-                    <h4>JAVASCRIPT:</h4>
+                    <b>JAVASCRIPT:</b>
                     <ul>
                         <li>Javascript is a programming language that is used for writing scripts on the website.</li>
                         <li>It can only be run in the browsers.</li>
@@ -20,7 +20,7 @@ const Blogs = () => {
                     </ul>
                 </p>
                 <p>
-                    <h4>NODEJS:</h4>
+                    <b>NODEJS:</b>
                     <ul>
                         <li>NodeJS is a Javascript runtime environment.</li>
                         <li>We can run Javascript outside the browser with the help of NodeJS.</li>
@@ -42,7 +42,7 @@ const Blogs = () => {
                 <br />
 
                 <p>
-                    <h4>SQL:</h4>
+                    <b>SQL:</b>
                     <ul>
                         <li>SQL databases are relational.</li>
                         <li>SQL databases use structured query language and have a predefined schema.</li>
@@ -51,7 +51,7 @@ const Blogs = () => {
                     </ul>
                 </p>
                 <p>
-                    <h4>NOSQL:</h4>
+                    <b>NOSQL:</b>
                     <ul>
                         <li>NoSQL databases are non-relational.</li>
                         <li>NoSQL databases have dynamic schemas for unstructured data.</li>

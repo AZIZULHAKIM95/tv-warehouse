@@ -44,7 +44,7 @@ const Inventory = (props) => {
             .then((res => {
                 if (res.data.deletedCount > 0) {
                     let url = process.env.REACT_APP_API_URL;
-                    fetch(url + "/products")
+                    fetch(url + "products")
                         .then(res => res.json())
                         .then(data => {
                             
